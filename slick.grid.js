@@ -1307,7 +1307,7 @@ if (typeof Slick === "undefined") {
 
             $viewportTopR.css({
                 'overflow-x': ( options.frozenColumn > -1 ) ? ( hasFrozenRows ) ? 'hidden' : 'scroll' : ( hasFrozenRows ) ? 'hidden' : 'auto',
-                'overflow-y': ( options.frozenColumn > -1 ) ? ( hasFrozenRows ) ? 'scroll' : 'auto' : ( hasFrozenRows ) ? 'scroll' : 'auto'
+                'overflow-y': 'auto'
             });
 
             $viewportBottomL.css({
